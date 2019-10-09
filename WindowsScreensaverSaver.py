@@ -6,8 +6,8 @@ import subprocess
 import psutil
 
 # Source and destination directories
-source_path = r'C:\Users\adam.jackson\AppData\Local\packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets'
-destination_path = r'C:\Users\adam.jackson\Documents\Windows screensavers\Selected'
+source_path = r'C:\Users\first.second\AppData\Local\packages\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\LocalState\Assets'
+destination_path = r'C:\
 
 # takes file from current working directory, copies it as jpg to another directory with a new name 
 def copy_and_rename_jpg(file, new_file_name, d_path):    
